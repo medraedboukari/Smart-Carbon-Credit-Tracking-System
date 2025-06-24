@@ -1,0 +1,106 @@
+version: "3.1"
+
+nlu:
+  - intent: ask_environment_tips
+    examples: |
+      - Can you give me tips to reduce carbon emissions?
+      - How can I lower my carbon footprint?
+      - What are some tips to save the environment?
+      - Do you have advice on reducing emissions?
+
+  - intent: ask_energy_saving
+    examples: |
+      - How can I save energy at home?
+      - What are some energy-saving tips for appliances?
+      - How do I reduce my electricity bill?
+      - Can you share energy conservation tips?
+      - What are ways to save energy in daily life?
+
+  - intent: ask_recycling_tips
+    examples: |
+      - How can I recycle better?
+      - What are some recycling tips?
+      - Can you help me with recycling advice?
+      - How do I recycle properly?
+
+  - intent: ask_water_conservation
+    examples: |
+      - How can I save water at home?
+      - What are some tips for conserving water?
+      - Can you help me with water-saving advice?
+      - How do I reduce water usage?
+      - What are ways to conserve water in daily life?
+
+  - intent: ask_renewable_energy
+    examples: |
+      - What are renewable energy sources?
+      - Can you explain solar and wind energy?
+      - How does renewable energy work?
+      - What are the benefits of renewable energy?
+      - Why is renewable energy important?
+
+  - intent: ask_deforestation
+    examples: |
+      - What is deforestation?
+      - How does deforestation affect the environment?
+      - Can you explain the impact of cutting down trees?
+      - Tell me about reforestation efforts.
+
+  - intent: greet
+    examples: |
+      - Hi
+      - Hello
+      - Hey there
+      - Good morning
+      - Good evening
+      - Hi there
+      - Hey
+
+  - intent: goodbye
+    examples: |
+      - Bye
+      - See you later
+      - Goodbye
+      - Talk to you later
+      - Catch you later
+      - Good bye
+
+  - intent: affirm
+    examples: |
+      - Yes
+      - Sure
+      - Absolutely
+      - Of course
+
+  - intent: deny
+    examples: |
+      - No
+      - Not really
+      - I don't think so
+      - Nope
+
+  - intent: mood_great
+    examples: |
+      - amazing
+      - I feel great
+      - wonderful
+      - super
+
+  - intent: mood_unhappy
+    examples: |
+      - not good
+      - very terrible
+      - I'm sad
+      - not happy
+
+  - intent: bot_challenge
+    examples: |
+      - are you a bot?
+      - are you real?
+      - are you human?
+
+  - intent: nlu_fallback
+    examples: |
+      - asdfghjkl
+      - qwertyuiop
+      - random gibberish

@@ -1,0 +1,32 @@
+version: "3.1"
+
+rules:
+  - rule: Respond to carbon emissions inquiry
+    steps:
+      - intent: ask_environment_tips
+      - action: action_provide_tips
+
+  - rule: Respond to energy saving inquiry
+    steps:
+      - intent: ask_energy_saving
+      - action: utter_energy_saving
+
+  - rule: Respond to water conservation inquiry
+    steps:
+      - intent: ask_water_conservation
+      - action: utter_water_conservation
+
+  - rule: Respond to renewable energy inquiry
+    steps:
+      - intent: ask_renewable_energy
+      - action: utter_renewable_energy
+
+  - rule: Respond to deforestation inquiry
+    steps:
+      - intent: ask_deforestation
+      - action: utter_deforestation
+
+  - rule: Handle fallback
+    steps:
+      - intent: nlu_fallback
+      - action: action_handle_fallback

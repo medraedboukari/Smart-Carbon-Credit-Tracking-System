@@ -1,0 +1,24 @@
+# Ignorer les fichiers temporaires de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les environnements virtuels
+rasa_env/
+
+# Ignorer les modèles si vous ne voulez pas les inclure
+models/
+
+# Ignorer les fichiers spécifiques à l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers temporaires du système
+.DS_Store
+Thumbs.db
+
+# Ignorer les fichiers de Rasa générés automatiquement
+.rasa/

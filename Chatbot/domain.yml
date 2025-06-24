@@ -1,0 +1,103 @@
+version: "3.1"
+
+intents:
+  - ask_environment_tips
+  - ask_carbon_emissions
+  - ask_energy_saving
+  - ask_recycling_tips
+  - ask_water_conservation
+  - ask_renewable_energy
+  - ask_deforestation
+  - ask_climate_change
+  - ask_pollution
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - nlu_fallback
+
+entities:
+  - tip_type
+
+slots:
+  tip_type:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you with environmental topics today?"
+    - text: "Hi there! What environmental question can I help you with?"
+    - text: "Hey! I'm here to provide information about the environment."
+
+  utter_goodbye:
+    - text: "Goodbye! Remember, every small action helps the planet!"
+    - text: "See you later! Keep making eco-friendly choices."
+    - text: "Take care! I'm here if you have more questions."
+
+  utter_ask_tip_type:
+    - text: "What type of tips are you looking for? (e.g., energy saving, recycling, water conservation)"
+    - text: "Can you specify the type of tips you need? For example, renewable energy or waste reduction."
+
+  utter_happy:
+    - text: "I'm glad to hear that! 😊"
+    - text: "That's wonderful! Keep up the positivity!"
+
+  utter_cheer_up:
+    - text: "I'm sorry to hear that. Remember, every small action helps the environment!"
+    - text: "Don't worry, things will get better. Let's focus on making a positive impact!"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+    - text: "Was that information useful?"
+
+  utter_iamabot:
+    - text: "I am a bot, here to help you with environmental questions."
+    - text: "Yes, I'm a bot! My goal is to assist you with your environmental queries."
+
+  utter_fallback:
+    - text: "Sorry, I didn't understand that. Can you please rephrase?"
+    - text: "I'm not sure I got that. Could you try asking in a different way?"
+
+  utter_climate_change:
+    - text: "Climate change refers to long-term shifts in temperatures and weather patterns, mainly caused by human activities like burning fossil fuels."
+    - text: "It's the result of greenhouse gases trapping heat in the atmosphere, leading to global warming and extreme weather events."
+
+  utter_pollution:
+    - text: "Pollution is the introduction of harmful substances into the environment, affecting air, water, and soil quality."
+    - text: "Air pollution, water pollution, and plastic waste are major environmental challenges we face today."
+
+  utter_energy_saving:
+    - text: "To save energy, switch to LED bulbs, unplug devices when not in use, and use energy-efficient appliances."
+    - text: "Simple actions like turning off lights when leaving a room can make a big difference in saving energy."
+
+  utter_recycling_tips:
+    - text: "Recycling helps reduce waste. Separate recyclables like paper, plastic, and glass, and avoid single-use plastics."
+    - text: "Consider composting organic waste and reusing items to minimize landfill contributions."
+
+  utter_water_conservation:
+    - text: "To conserve water, fix leaks, use water-efficient appliances, and turn off taps when not in use."
+    - text: "Collect rainwater for gardening and use drought-resistant plants to save water."
+
+  utter_renewable_energy:
+    - text: "Renewable energy sources like solar, wind, and hydroelectric power are sustainable alternatives to fossil fuels."
+    - text: "Consider installing solar panels or supporting renewable energy initiatives in your community."
+
+  utter_deforestation:
+    - text: "Deforestation is the clearing of forests for agriculture or urban development, leading to habitat loss and climate change."
+    - text: "Support reforestation projects and choose sustainably sourced products to combat deforestation."
+
+actions:
+  - action_provide_tips
+  - action_provide_environmental_tips
+  - action_answer_general_questions
+  - action_handle_fallback
+  - action_provide_recycling_tips
+  - action_provide_water_conservation_tips
+  - action_provide_renewable_energy_info
+  - action_provide_deforestation_info

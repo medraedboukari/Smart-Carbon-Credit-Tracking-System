@@ -1,0 +1,47 @@
+version: "3.1"
+
+stories:
+  - story: greet user
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: user says goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: user asks for tips on reducing carbon emissions
+    steps:
+      - intent: ask_environment_tips
+      - action: action_provide_tips
+
+  - story: user asks about climate change
+    steps:
+      - intent: ask_climate_change
+      - action: utter_climate_change
+
+  - story: user asks about pollution
+    steps:
+      - intent: ask_pollution
+      - action: utter_pollution
+
+  - story: user asks about energy saving
+    steps:
+      - intent: ask_energy_saving
+      - action: utter_energy_saving
+
+  - story: user asks about water conservation
+    steps:
+      - intent: ask_water_conservation
+      - action: utter_water_conservation
+
+  - story: user asks about renewable energy
+    steps:
+      - intent: ask_renewable_energy
+      - action: utter_renewable_energy
+
+  - story: user asks about deforestation
+    steps:
+      - intent: ask_deforestation
+      - action: utter_deforestation
