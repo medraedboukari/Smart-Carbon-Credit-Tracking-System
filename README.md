@@ -69,10 +69,4 @@ The system consists of:
 
 ---
 
-### Steps
 
-#### Clone the Repository
-
-```bash
-git clone https://github.com/your-username/smart-carbon-credit-tracking-system.git
-cd smart-carbon-credit-tracking-system
