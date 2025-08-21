@@ -31,7 +31,7 @@ This project leverages a modern, full-stack technology approach:
 
 -   **Hardware:** Final prototype developed and successfully field-tested.
 -   **Software:** Web dashboard and firmware are fully functional.
--   **Research:** Paper presented and awarded "Best Paper" at an international conference, with a journal publication pending.
+
 
 **Note:** As this project contains proprietary research and implementation details, the full source code is not publicly available at this time. For collaboration inquiries or more detailed information, please contact the author.
 
