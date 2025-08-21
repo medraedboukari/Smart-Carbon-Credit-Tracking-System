@@ -1,72 +1,46 @@
 # Smart Carbon Credit Tracking System
 
-This repository contains the implementation of a **Smart Carbon Credit Tracking System**, an IoT-based project designed to monitor carbon emissions in real-time. Using advanced machine learning algorithms and modern web technologies, the system provides actionable insights to promote sustainable practices.
+![Final Prototype](images/prototype.jpg) <!-- **Action:** Add a good photo of your prototype to an 'images' folder in your repo -->
 
----
 
-## Features
+## Overview
 
-- **Real-Time Monitoring**: Tracks environmental parameters (temperature, humidity, pressure, gas levels) via IoT sensors.
-- **Machine Learning Integration**: Predicts CO2 levels and detects anomalies using models deployed with [Edge Impulse](https://www.edgeimpulse.com/).
-- **Edge Computing**: Processes data locally on an ESP32-S3 for enhanced efficiency.
-- **LoRaWAN Communication**: Transmits data securely over long distances using SX1278 LoRa modules.
-- **Modern Web Application**: Built with React and Next.js for real-time data visualization and alerting.
-- **PostgreSQL Database**: Stores and manages historical data for analytics and reporting.
-- **MQTT Communication**: Facilitates lightweight and efficient messaging between devices and the backend.
+The Smart Carbon Credit Tracking System is an end-to-end solution designed to address the critical need for accurate and transparent environmental monitoring. By integrating modern IoT, Edge AI, and communication technologies, this system provides a low-cost, autonomous, and scalable platform for tracking carbon emissions in real-time.
 
----
+The core of the system is a solar-powered sensor node that captures environmental data, performs on-device AI-powered analysis for anomaly detection and CO₂ prediction, and transmits the results over a long-range, low-power network. A dynamic web dashboard provides users with intuitive data visualizations, analytics, and real-time alerts.
 
-## System Architecture
+## Key Features
 
-The system consists of:
+-   **Real-Time Environmental Monitoring:** Live capture of key environmental metrics including CO₂ concentration.
+-   **Embedded Edge AI:** An on-device machine learning model provides instant, low-latency predictions and anomaly detection without relying on the cloud.
+-   **Long-Range, Low-Power Communication:** Utilizes LoRa technology to ensure robust data transmission in remote or off-grid environments.
+-   **Energy Autonomy:** A solar-powered design with battery backup allows for continuous, long-term deployment without manual intervention.
+-   **Interactive Web Dashboard:** A responsive, user-friendly interface for data visualization, trend analysis, and system alerts.
+-   **Intelligent Chatbot:** An integrated conversational AI to facilitate user interaction and provide environmental information.
 
-1. **IoT Node**:
-   - ESP32-S3 with BME680 Sensor:
-     - Collects environmental data.
-     - Performs on-device ML predictions and anomaly detection.
-     - Sends data via LoRa to the gateway ESP32.
+## Technology Stack
 
-2. **Gateway Node**:
-   - Receives LoRa data and forwards it to the backend over MQTT.
+This project leverages a modern, full-stack technology approach:
 
-3. **Backend**:
-   - Manages MQTT communication.
-   - Stores data in a PostgreSQL database.
-   - Provides APIs for the frontend.
+-   **Embedded Systems:** C++ on the Arduino framework for firmware, with an AI model deployed via Edge Impulse.
+-   **Web Backend & Frontend:** A full-stack JavaScript framework for building the API and the responsive user interface.
+-   **Database:** A robust SQL database for persistent data storage.
+-   **Communication Protocols:** LoRa for device-to-gateway communication and MQTT for gateway-to-server data transfer.
 
-4. **Frontend**:
-   - Real-time dashboard for monitoring and analytics.
-   - Built with React and Next.js for optimal performance and scalability.
+## Project Status
 
----
+-   **Hardware:** Final prototype developed and successfully field-tested.
+-   **Software:** Web dashboard and firmware are fully functional.
+-   **Research:** Paper presented and awarded "Best Paper" at an international conference, with a journal publication pending.
 
-## Technologies Used
+**Note:** As this project contains proprietary research and implementation details, the full source code is not publicly available at this time. For collaboration inquiries or more detailed information, please contact the author.
 
-### Hardware
+## Author
 
-- ESP32-S3 WROOM 1 N8R2
-- SX1278 LoRa modules
-- Bosch BME680 sensor
+**Mohamed Raed Boukari**
 
-### Software
+-   **LinkedIn:** [Your LinkedIn Profile URL]
+-   **GitHub:** [Your GitHub Profile URL]
 
-- **Frontend**: React.js, Next.js
-- **Backend**: Flask, Python, MQTT
-- **Database**: PostgreSQL
-- **Development Environment**: PlatformIO
-- **Machine Learning**: Edge Impulse
-
----
-
-## Setup Instructions
-
-### Prerequisites
-
-- Install [PlatformIO](https://platformio.org/) for ESP32 development.
-- Set up an MQTT broker (e.g., [Mosquitto](https://mosquitto.org/)).
-- Install PostgreSQL for database management.
-- Install [Node.js](https://nodejs.org/) for React and Next.js.
-
----
-
+This project was developed under the supervision of Dr. Abdelbacet Mhamdi  and Mr. Hazem Ben Ammar .
 
