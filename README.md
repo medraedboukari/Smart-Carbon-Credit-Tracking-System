@@ -39,8 +39,7 @@ This project leverages a modern, full-stack technology approach:
 
 **Mohamed Raed Boukari**
 
--   **LinkedIn:** [Your LinkedIn Profile URL]
--   **GitHub:** [Your GitHub Profile URL]
+-   **LinkedIn:** [LinkedIn – Mohamed Raed Boukari](https://www.linkedin.com/in/mohamed-raed-boukari-6a7353257)
 
 This project was developed under the supervision of Dr. Abdelbacet Mhamdi  and Mr. Hazem Ben Ammar .
 
