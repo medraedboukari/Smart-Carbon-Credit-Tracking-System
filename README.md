@@ -1,6 +1,7 @@
 # Smart Carbon Credit Tracking System
 
-![Final Prototype](Project's%20images/Prototype2.png)
+<img src="Project%27s%20images/Prototype2.png" alt="Final Prototype" width="400"/>
+
 
 
 
