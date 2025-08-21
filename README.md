@@ -1,6 +1,6 @@
 # Smart Carbon Credit Tracking System
 
-![Final Prototype](images/prototype.jpg) <!-- **Action:** Add a good photo of your prototype to an 'images' folder in your repo -->
+![Final Prototype](Project's images/Prototype2.png) <!-- **Action:** Add a good photo of your prototype to an 'images' folder in your repo -->
 
 
 ## Overview
