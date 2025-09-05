@@ -1,6 +1,9 @@
 # Smart Carbon Credit Tracking System
 
-<img src="Project%27s%20images/Prototype2.png" alt="Final Prototype" width="400"/>
+<img src="Project%27s%20images/System%20Architecture.jpg" alt="System Architecture" width="400"/>
+<img src="Project%27s%20images/Web%20interface.png" alt="Web Interface" width="400"/>
+<img src="Project%27s%20images/Chatbot.png" alt="Chatbot" width="400"/>
+
 
 
 
